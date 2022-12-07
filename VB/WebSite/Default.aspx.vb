@@ -37,7 +37,7 @@ Partial Public Class Editors_Lookup_Lookup
 		Next item
 		Return "[not found]"
 	End Function
-	Protected Sub OnCallback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+	Protected Sub OnCallback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
 		' DEMO
 		System.Threading.Thread.Sleep(100)
 

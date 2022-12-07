@@ -32,7 +32,7 @@ public partial class Editors_Lookup_Lookup : System.Web.UI.Page {
         }
         return "[not found]";
     }
-    protected void OnCallback(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e) {
+    protected void OnCallback(object source, DevExpress.Web.CallbackEventArgs e) {
         // DEMO
         System.Threading.Thread.Sleep(100);
 
